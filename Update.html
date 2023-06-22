@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Update Patient list</title>
+
+  <style>
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: #ccc;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    input[type="text"] {
+      margin-bottom: 10px;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #3e8e41;
+    }
+
+    form {
+      max-width: 500px;
+      margin: auto;
+      padding: 20px;
+      border: 5px solid #ccc;
+      border-radius: 10px;
+    }
+
+    /* Style the input fields */
+    input[type="text"] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 5px solid aqua;
+      border-radius: 10px;
+    }
+
+    /* Style the submit button */
+    button[type="button"] {
+      background-color: orangered;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      font-weight: bold;
+      color: black;
+    }
+
+    /* Change the color of the submit button on hover */
+    button[type="button"]:hover {
+      background-color: orange;
+      font-weight: bold;
+      color: black;
+    }
+    #lb1{
+          text-align: center;
+          padding-top: 100px;
+          padding-right: 40px;
+          
+        }
+
+  </style>
+</head>
+
+<body bgcolor="black">
+
+  <form>
+    <h2 for="id">Roll No:</h2>
+    <input type="text" id="inp-1" name="id" placeholder="Enter your id"><br>
+
+    <!-- <input type="submit" value="Get" > -->
+
+    <h2 for="firstname"><b> First Name:</b></h2>
+    <input type="text" id="inp-2" name="firstname" placeholder="Enter your first name">
+
+    <h2 for="lastname"><b> Last Name: </b></h2>
+    <input type="text" id="inp-3" name="lastname" placeholder="Enter your last name">
+
+    <h2 for="address"><b> Address: </b></h2>
+    <input type="text" id="inp-4" name="contactno" placeholder="Enter your contactno>
+
+    <!-- <input type="Update" id="btn-1" value="Update"> -->
+    <button type="button" id="btn-1">Update</button>
+
+    <div id="ld1">
+      <div id="div-1"></div>
+      <div id="div-2"></div>
+      <div id="div-3"></div>
+      <div id="div-4"></div>
+    </div>
+  </form>
+
+
+<script src="./update.js"> </script>
+<script src="./jquery-3.6.3.min.js"></script>
+
+</body>
+
+</html>

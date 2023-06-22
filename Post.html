@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Post Patient name</title>
+    <style>
+      /* Add some basic styling to the form */
+      form {
+        max-width: 500px;
+        margin: auto;
+        padding: 20px;
+        border: 5px solid #ccc;
+        border-radius: 10px;
+        color: #ccc;
+        display: flex;
+       flex-direction: column;
+        align-items: center;
+      }
+
+      /* Style the input fields */
+      input[type="text"] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 4px solid aquamarine;
+        border-radius: 10px;
+        
+      }
+
+      /* Style the submit button */
+      input[type="Add"] {
+        background-color: mediumspringgreen;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        color: black;
+      }
+
+      /* Change the color of the submit button on hover */
+      input[type="Add"]:hover {
+        background-color: orangered;
+        color: black;
+        font-weight: bold;
+      }
+      #lb1{
+          text-align: center;
+          padding-top: 100px;
+          padding-right: 40px;
+          
+        }
+     
+
+    </style>
+  </head>
+  <body bgcolor="black">
+    <form>
+      <h2 for="firstname"><b> First name:</b></h2>
+      <input type="text" id="firstname" name="firstname" placeholder="Enter your first name">
+
+      <h2 for="lastname"><b> Last name: </b></h2>
+      <input type="text" id="lastname" name="lastname" placeholder= "Enter your last name">
+
+      <h2 for="gender"><b> gender: </b></h2>
+      <input type="text" id="gender" name="gender" placeholder="Enter your agender">
+
+      <input type="Add" id="btn-1" value="Add">
+
+      <div id="ld1">
+        <!-- <div id="div-1"></div> -->
+        <div id="div-2"></div>
+        <div id="div-3"></div>
+        <div id="div-4"></div>
+      </div>
+
+    </form>
+    <script src="./Post.js"></script>
+    <script src="./jquery-3.6.3.min.js"></script>
+  </body>
+</html>
